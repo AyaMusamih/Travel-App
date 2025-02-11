@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel App</title>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Travel App</div>
+        <div class="navigation-links">Navigation</div>
+    </nav>
+
+    <section class="header-section">
+        <h1>Plan Your Next Trip</h1>
+        <p class="subtitle">Where do you want to go?</p>
+    </section>
+
+    <section class="form-section">
+        <form id="locationForm" onsubmit="return Client.handleSubmit(event)">
+            <div class="input-group">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination">
+                <div id="locationError" class="error-message"></div>
+            </div>
+
+            <div class="input-group">
+                <label for="travelDate">Travel Date:</label>
+                <input type="date" id="travelDate" name="travelDate">
+                <div id="dateError" class="error-message"></div>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </section>
+
+    <section class="details-section" id="locationDetails">
+        <h2 id="remainingDays"></h2>
+        <p class="cityName"></p>
+        <p class="temperature"></p>
+        <p class="high-temp"></p>
+        <p class="low-temp"></p>
+        <p class="weather-description"></p>
+        <div class="image-container"></div>
+    </section>
+
+    <footer>
+        <p>Thank you for using our travel app!</p>
+    </footer>
+
+</body>
+</html>

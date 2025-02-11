@@ -1,0 +1,120 @@
+/* Basic Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header, footer {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #2980b9;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.navigation-links {
+  font-size: 1rem;
+}
+
+/* Header Section */
+.header-section {
+  text-align: center;
+  padding: 30px;
+  background-color: #ecf0f1;
+}
+
+.header-section h1 {
+  font-size: 2.5rem;
+}
+
+.header-section .subtitle {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+/* Form Section */
+.form-section {
+  background-color: white;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 0.875rem;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #3498db;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Details Section */
+.details-section {
+  background-color: white;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.details-section p {
+  margin: 10px 0;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 8px;
+}
