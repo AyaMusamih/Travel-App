@@ -21,15 +21,15 @@ The **Travel App** is a web application that helps users plan their trips by pro
 
 
 ```
-## Installation and Setup
 
+## Installation and Setup
 ### Prerequisites
 Ensure you have the following installed on your machine:
-- Node.js (v14 or later)
-- NPM (v6 or later)
+- **Node.js** (v14 or later)
+- **NPM** (v6 or later)
 
 ### Steps to Run the Project
-1. Clone the repository:
+1. **Clone the repository:**
    ```sh
    git clone <repository-url>
    cd travel-app
