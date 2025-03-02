@@ -19,7 +19,28 @@ The **Travel App** is a web application that helps users plan their trips by pro
   - [Pixabay API](https://pixabay.com/)
 - **Additional Libraries:** Axios, Request-Promise-Native, Dotenv, Cors
 
-
+## Project Structure
+```
+├── dist/                  # Production build
+├── src/                   # Source files
+│   ├── js/                # JavaScript logic
+│   │   ├── getCityLocation.js
+│   │   ├── getWeather.js
+│   │   ├── getPicture.js
+│   │   ├── formHandler.js
+│   │   ├── RemainingDays.js
+│   ├── styles/            # SCSS styles
+│   ├── index.js           # Frontend entry point
+│   ├── index.html         # Main HTML file
+├── server/                # Backend server
+│   ├── index.js           # Express server setup
+├── __tests__/             # Unit tests
+│   ├── getCityLocation.test.js
+├── .babelrc               # Babel configuration
+├── .gitignore             # Files to ignore in git
+├── package.json           # Dependencies and scripts
+├── webpack.config.js      # Webpack configuration
+├── README.md              # Project documentation
 ```
 
 ## Installation and Setup
